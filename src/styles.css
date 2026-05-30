@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.tab-bar {
+  display: flex;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  gap: 12px;
+  padding: 10px;
+}
+
+.btn {
+  gap: 12px;
+  padding: 10px;
+}
+.tab:hover {
+  background-color: aquamarine;
+}
+
+.interestform {
+  display: flex;
+  gap: 13px;
+}
+
+.tab-bar div {
+  cursor: pointer;
+}
+
+.inputform {
+  display: flex;
+  flex-direction: column;
+}
+
+.elements {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.tab {
+  border: 1px solid black;
+  padding: 8px;
+}
