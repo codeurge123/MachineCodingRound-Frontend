@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.inputbox {
+  padding: 5px;
+  width: 200px;
+}
+
+.outer {
+  display: flex;
+  flex-direction: rows;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.chips {
+  border: 1px solid grey;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(152, 151, 151);
+}
+
+.result {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: rows;
+  flex-wrap: wrap;
+  /* width: 200px; */
+}
+
+.delete {
+  /* border: 1px solid black; */
+  padding: 8px;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 50%;
+  color: rgb(119, 13, 13);
+}
