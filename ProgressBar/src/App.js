@@ -26,6 +26,11 @@ export default function App() {
               transform: `translateX(${animatedProgress - 100}%)`,
               color: animatedProgress < 5 ? "transparent" : "white",
             }}
+            // this is how we add 'accessibility' to our progress bar
+            role="progressbar"
+            aria-valuenow={animatedProgress}
+            aria-valuemin="0"
+            aria-valuemax="100"
           >
             {p}%
           </div>
