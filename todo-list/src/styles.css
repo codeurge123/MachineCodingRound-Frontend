@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.inputbox {
+  padding: 8px;
+  width: 200px;
+  font-size: 15px;
+}
+
+.addbutton {
+  padding: 9px;
+  width: 60px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.todo-list {
+  /* border: 1px solid black; */
+}
+
+.delete {
+  margin-left: 10px;
+}
